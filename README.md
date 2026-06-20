@@ -1,4 +1,7 @@
-# Clasificación del riesgo de contaminación por nitratos mediante aprendizaje automático
+
+# PROYECTO DE INVESTIGACIÓN 
+
+# Tema: Clasificación del Riesgo de Contaminación por Nitratos mediante ML
 
 Este repositorio contiene el desarrollo técnico del Trabajo de Fin de Máster orientado a la clasificación del riesgo de contaminación por nitratos en las aguas subterráneas de La Rioja durante el periodo 2015–2025.
 
