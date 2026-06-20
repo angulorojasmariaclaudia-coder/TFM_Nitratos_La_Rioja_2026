@@ -60,6 +60,9 @@ Los archivos de gran tamaño, como rásteres, GeoPackages y modelos pesados, no 
 ## 👩‍💻 Autora
 
 **María Claudia Angulo Rojas**
+
 Máster en Ciencia de Datos y Aprendizaje Automático
+
 Universidad de La Rioja
+
 Curso 2025–2026
