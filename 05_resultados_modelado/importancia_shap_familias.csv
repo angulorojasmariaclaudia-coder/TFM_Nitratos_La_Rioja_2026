@@ -1,0 +1,11 @@
+familia,importancia_shap,porcentaje,porcentaje_acumulado
+Suelo,0.82294047,27.663315,27.663315
+Territorial (Zona Vulnerable),0.5092077,17.117123,44.780437
+Clima,0.46056676,15.482046,60.26248
+Espacial (Coordenadas),0.3197634,10.748913,71.0114
+Vegetación (NDVI),0.28886327,9.710197,80.721596
+Agricultura (SIGPAC),0.22774701,7.655762,88.37736
+Temporal (Año/Mes),0.19985938,6.7183146,95.09567
+Cobertura del suelo (CLC),0.06144664,2.0655415,97.16122
+Territorial (Naturaleza/Red),0.05155899,1.733166,98.89439
+Espacial (Municipio),0.032890625,1.105625,100.00001

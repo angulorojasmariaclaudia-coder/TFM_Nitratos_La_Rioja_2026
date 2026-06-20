@@ -1,0 +1,70 @@
+# ==========================================
+# PYTHON Y JUPYTER
+# ==========================================
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# ==========================================
+# CONFIGURACIÓN LOCAL
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# ARCHIVOS TEMPORALES
+# ==========================================
+*.tmp
+*.temp
+*.log
+~$*.xlsx
+~$*.xls
+~$*.docx
+
+# ==========================================
+# ARCHIVOS GEOGRÁFICOS PESADOS
+# ==========================================
+*.tif
+*.tiff
+*.img
+*.vrt
+*.aux.xml
+
+# No subir los GeoPackage de datos construidos
+02_datos_construidos/*.gpkg
+
+# ==========================================
+# ARCHIVOS COMPRIMIDOS
+# ==========================================
+*.zip
+*.rar
+*.7z
+
+# ==========================================
+# MODELOS PESADOS
+# ==========================================
+05_resultados_modelado/xgboost_evaluado_train.joblib
+05_resultados_modelado/xgboost_final_full_data.joblib
+
+# Otros modelos temporales
+05_resultados_modelado/modelos_temporales/
+05_resultados_modelado/temporales/
+
+# ==========================================
+# RESULTADOS TEMPORALES
+# ==========================================
+06_resultados_mapas/temporales/
+
+# ==========================================
+# DOCUMENTOS QUE NO SE DISTRIBUYEN
+# ==========================================
+07_documentacion/articulos/
+07_documentacion/marco_teorico_pdf/

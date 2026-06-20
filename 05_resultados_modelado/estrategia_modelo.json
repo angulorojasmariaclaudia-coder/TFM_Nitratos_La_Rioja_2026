@@ -1,0 +1,8 @@
+{
+    "modelo_seleccionado": "XGBoost",
+    "estrategia_ponderacion": "weighted",
+    "metricas_seleccion": {
+        "f1_macro_val_cruzada": 0.83138595634775,
+        "std_val_cruzada": 0.02106382700956249
+    }
+}
