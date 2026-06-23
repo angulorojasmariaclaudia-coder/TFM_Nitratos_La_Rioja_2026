@@ -1,173 +1,105 @@
 variable,importancia_shap,porcentaje,porcentaje_acumulado,familia
-zona_vulnerable_nitratos,0.5092077,17.11712,17.11712,Territorial (Zona Vulnerable)
-altitud_dem_m,0.1729407,5.8134365,22.930557,Espacial (Coordenadas)
-anio,0.15515937,5.215714,28.14627,Temporal (Año/Mes)
-sigpac_pendiente_pct,0.148168,4.9806976,33.12697,Agricultura (SIGPAC)
-soil_clay_15_30cm,0.1120362,3.7661195,36.89309,Suelo
-soil_clay_5_15cm,0.11080699,3.7247994,40.61789,Suelo
-anomalia_temp,0.09517827,3.199437,43.817326,Clima
-y_utm30,0.078131944,2.6264212,46.44375,Espacial (Coordenadas)
-soil_cec_5_15cm,0.074975654,2.5203218,48.96407,Suelo
-soil_clay_0_5cm,0.07283213,2.4482667,51.412334,Suelo
-dist_estacion_m,0.06989993,2.3497005,53.762035,Clima
-temp_media_30d,0.06811325,2.2896407,56.051678,Clima
-precip_30d,0.062550046,2.1026325,58.154312,Clima
-ndvi_anio_observacion,0.049283046,1.6566597,59.81097,Vegetación (NDVI)
-soil_phh2o_15_30cm,0.04767715,1.6026771,61.413647,Suelo
-soil_wv1500_5_15cm,0.04617732,1.55226,62.965908,Suelo
-ndvi_cambio_periodo,0.044900984,1.5093557,64.475266,Vegetación (NDVI)
-mes,0.044700004,1.5025997,65.97787,Temporal (Año/Mes)
-soil_wv1500_15_30cm,0.04217661,1.4177754,67.395645,Suelo
-temp_media_7d,0.041460767,1.3937122,68.78936,Clima
-soil_wv1500_0_5cm,0.040703855,1.3682684,70.15763,Suelo
-precip_15d,0.039117154,1.314931,71.472565,Clima
-precip_7d,0.038433556,1.2919518,72.76452,Clima
-ndvi_2025,0.036294714,1.2200541,73.98457,Vegetación (NDVI)
-ndvi_2016,0.034102954,1.1463777,75.13095,Vegetación (NDVI)
-x_utm30,0.032674003,1.0983433,76.229294,Espacial (Coordenadas)
-soil_silt_0_5cm,0.030511694,1.0256568,77.25495,Suelo
-soil_cec_0_5cm,0.0292607,0.98360443,78.238556,Suelo
-sigpac_superficie_m2,0.027835961,0.9357115,79.17427,Agricultura (SIGPAC)
-soil_silt_15_30cm,0.026840366,0.9022443,80.076515,Suelo
-tmed,0.025811581,0.86766154,80.944176,Clima
-ndvi_max_periodo,0.025191655,0.8468227,81.791,Vegetación (NDVI)
-lat,0.024752475,0.8320595,82.62306,Espacial (Coordenadas)
-naturaleza_Manantial,0.023961548,0.8054723,83.428535,Territorial (Naturaleza/Red)
-soil_wv0033_0_5cm,0.022481536,0.75572145,84.18426,Suelo
-ndvi_2015,0.020254893,0.6808723,84.86513,Vegetación (NDVI)
-soil_phh2o_0_5cm,0.01960806,0.6591289,85.524254,Suelo
-soil_soc_5_15cm,0.01945504,0.6539851,86.17824,Suelo
-soil_cec_15_30cm,0.019369958,0.6511251,86.82936,Suelo
-ndvi_min_periodo,0.018212304,0.6122103,87.441574,Vegetación (NDVI)
-soil_phh2o_5_15cm,0.016959213,0.5700874,88.01166,Suelo
-soil_sand_15_30cm,0.016735528,0.5625681,88.57423,Suelo
-clc2012_agricola,0.016670408,0.56037915,89.134605,Cobertura del suelo (CLC)
-prec,0.016474498,0.5537936,89.6884,Clima
-clc2012_nombre_Vinedos,0.015420495,0.51836306,90.206764,Cobertura del suelo (CLC)
-soil_wv0033_15_30cm,0.014535265,0.48860586,90.69537,Suelo
-red_RBAS,0.014021509,0.4713359,91.16671,Territorial (Naturaleza/Red)
-clc2012_nombre_Bosque frondosas,0.013443229,0.45189685,91.61861,Cobertura del suelo (CLC)
-sigpac_uso_nombre_Tierra arable,0.0134321805,0.45152548,92.07013,Agricultura (SIGPAC)
-ndvi_2021,0.012931511,0.43469536,92.50482,Vegetación (NDVI)
-soil_silt_5_15cm,0.012757415,0.42884308,92.93366,Suelo
-ndvi_2020,0.012586771,0.42310682,93.356766,Vegetación (NDVI)
-soil_soc_15_30cm,0.011883337,0.3994608,93.756226,Suelo
-sigpac_uso_nombre_Agua,0.011828916,0.39763144,94.153854,Agricultura (SIGPAC)
-sigpac_uso_nombre_Monte bajo / Matorral,0.011461063,0.38526595,94.53912,Agricultura (SIGPAC)
-lon,0.010868792,0.36535665,94.90448,Espacial (Coordenadas)
-soil_sand_0_5cm,0.010713393,0.36013287,95.26461,Suelo
-municipio_LOGROÑO,0.009888322,0.33239794,95.59701,Espacial (Municipio)
-municipio_QUEL,0.009572112,0.3217685,95.91878,Espacial (Municipio)
-soil_soc_0_5cm,0.00937072,0.31499866,96.23378,Suelo
-soil_sand_5_15cm,0.009243533,0.31072322,96.5445,Suelo
-ndvi_2018,0.008424341,0.28318593,96.82769,Vegetación (NDVI)
-ndvi_2017,0.007879241,0.2648623,97.09255,Vegetación (NDVI)
-soil_wv0033_5_15cm,0.0058288174,0.19593689,97.28849,Suelo
-naturaleza_Pozo,0.0057078754,0.19187139,97.48036,Territorial (Naturaleza/Red)
-ndvi_2019,0.0054448866,0.18303098,97.66339,Vegetación (NDVI)
-municipio_MURILLO DE RÍO LEZA,0.00478557,0.1608679,97.82426,Espacial (Municipio)
-ndvi_2023,0.00476197,0.16007459,97.98433,Vegetación (NDVI)
-ndvi_2024,0.004470671,0.15028252,98.13461,Vegetación (NDVI)
-red_RNIT,0.0040664924,0.13669597,98.27131,Territorial (Naturaleza/Red)
-naturaleza_Sondeo,0.0038015642,0.12779036,98.3991,Territorial (Naturaleza/Red)
-sigpac_coef_regadio,0.003747453,0.12597139,98.52507,Agricultura (SIGPAC)
-evento_extremo_lluvia,0.0035276923,0.1185841,98.643654,Clima
-municipio_NAVARRETE,0.0034696972,0.11663458,98.76029,Espacial (Municipio)
-clc2018_agricola,0.0032572935,0.10949458,98.86979,Cobertura del suelo (CLC)
-municipio_CIDAMÓN,0.003070681,0.103221565,98.97301,Espacial (Municipio)
-ndvi_2022,0.0030459608,0.102390595,99.0754,Vegetación (NDVI)
-sigpac_uso_nombre_Viales,0.0028949133,0.0973131,99.172714,Agricultura (SIGPAC)
-sigpac_uso_nombre_Improductivo,0.0027949556,0.093953006,99.26667,Agricultura (SIGPAC)
-sigpac_uso_nombre_Olivar,0.0026869383,0.09032197,99.356995,Agricultura (SIGPAC)
-clc2012_nombre_Tierras labor secano,0.0024805074,0.08338276,99.44038,Cobertura del suelo (CLC)
-clc2012_nombre_Tejido urbano discontinuo,0.002437014,0.08192071,99.5223,Cobertura del suelo (CLC)
-sigpac_uso_nombre_Forestal,0.0022246696,0.074782714,99.597084,Agricultura (SIGPAC)
-clc2018_nombre_Bosque frondosas,0.0020325987,0.06832622,99.66541,Cobertura del suelo (CLC)
-clc2012_nombre_Veg esclerofia,0.001311883,0.04409921,99.70951,Cobertura del suelo (CLC)
-municipio_CASTAÑARES DE RIOJA,0.0011820695,0.039735507,99.749245,Espacial (Municipio)
-clc2018_nombre_Frutales,0.0010938089,0.036768608,99.78601,Cobertura del suelo (CLC)
-ndvi_media_periodo,0.0010773633,0.036215786,99.82223,Vegetación (NDVI)
-clc2012_nombre_Frutales,0.0010495889,0.035282142,99.85751,Cobertura del suelo (CLC)
-municipio_TIRGO,0.0009221754,0.030999113,99.88851,Espacial (Municipio)
-clc2018_nombre_Veg esclerofia,0.0007915474,0.026608026,99.91512,Cobertura del suelo (CLC)
-sigpac_es_agricola,0.0006719594,0.022588052,99.93771,Agricultura (SIGPAC)
-clc2018_nombre_Tejido urbano discontinuo,0.000653113,0.021954527,99.95967,Cobertura del suelo (CLC)
-clc2012_nombre_Mosaico cultivos,0.00052602176,0.017682327,99.977356,Cobertura del suelo (CLC)
-altitud,0.00039546646,0.013293685,99.99065,Espacial (Coordenadas)
-cambio_clc_2012_2018,0.0002791329,0.0093831085,100.00003,Cobertura del suelo (CLC)
-municipio_ALBERITE,0.0,0.0,100.00003,Espacial (Municipio)
-clc2018_nombre_Cursos de agua,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-municipio_AGUILAR DEL RÍO ALHAMA,0.0,0.0,100.00003,Espacial (Municipio)
-clc2018_nombre_Bosque coniferas,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-clc2012_nombre_Zonas industriales,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-municipio_ALDEANUEVA DE EBRO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_ALCANADRE,0.0,0.0,100.00003,Espacial (Municipio)
-clc2018_nombre_Matorral boscoso,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-municipio_ALFARO,0.0,0.0,100.00003,Espacial (Municipio)
-clc2012_nombre_Tejido urbano continuo,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-clc2012_nombre_Matorral boscoso,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-clc2012_nombre_Praderas,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-clc2012_nombre_Matorrales,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-clc2012_nombre_Terrenos regados,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-municipio_CASALARREINA,0.0,0.0,100.00003,Espacial (Municipio)
-clc2018_nombre_Matorrales,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-clc2018_nombre_Mosaico cultivos,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-sigpac_uso_nombre_Vinedo,0.0,0.0,100.00003,Agricultura (SIGPAC)
-sigpac_uso_nombre_Pasto arbustivo,0.0,0.0,100.00003,Agricultura (SIGPAC)
-sigpac_uso_nombre_Pasto arbolado,0.0,0.0,100.00003,Agricultura (SIGPAC)
-dist_sigpac_m,0.0,0.0,100.00003,Agricultura (SIGPAC)
-sigpac_uso_nombre_Huerta,0.0,0.0,100.00003,Agricultura (SIGPAC)
-sigpac_uso_nombre_Frutos secos,0.0,0.0,100.00003,Agricultura (SIGPAC)
-sigpac_uso_nombre_Frutales,0.0,0.0,100.00003,Agricultura (SIGPAC)
-sigpac_coef_regadio_nulo,0.0,0.0,100.00003,Agricultura (SIGPAC)
-municipio_AGONCILLO,0.0,0.0,100.00003,Espacial (Municipio)
-clc2018_nombre_Zonas industriales,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-clc2018_nombre_Vinedos,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-clc2018_nombre_Tierras labor secano,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-clc2018_nombre_Terrenos regados,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-clc2012_nombre_Cursos de agua,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-clc2018_nombre_Praderas,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-clc2018_nombre_Tejido urbano continuo,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-municipio_ANGUIANO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_CENICERO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_GRÁVALOS,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_BAÑOS DE RÍO TOBÍA,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_LUMBRERAS,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_BRIEVA DE CAMEROS,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_LEIVA,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_HUÉRCANOS,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_HERRAMÉLLURI,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_HERCE,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_HARO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_GALILEA,0.0,0.0,100.00003,Espacial (Municipio)
-clc2012_nombre_Bosque coniferas,0.0,0.0,100.00003,Cobertura del suelo (CLC)
-municipio_FUENMAYOR,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_FONCEA,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_EZCARAY,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_ENTRENA,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_ENCISO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_CORNAGO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_CALAHORRA,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_CERVERA DEL RÍO ALHAMA,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_BAÑARES,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_NÁJERA,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_ORTIGOSA DE CAMEROS,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_PRADEJÓN,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_ARNEDILLO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_ARNEDO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_ZARRATÓN,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_VILLAR DE ARNEDO (EL),0.0,0.0,100.00003,Espacial (Municipio)
-municipio_VILLAMEDIANA DE IREGUA,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_VILLALBA DE RIOJA,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_VALGAÑÓN,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_TRICIO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_TORREMONTALBO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_TORRECILLA EN CAMEROS,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_TORMANTOS,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_SANTO DOMINGO DE LA CALZADA,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_SAN VICENTE DE LA SONSIERRA,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_SAN ASENSIO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_RODEZNO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_RINCÓN DE SOTO,0.0,0.0,100.00003,Espacial (Municipio)
-municipio_AUTOL,0.0,0.0,100.00003,Espacial (Municipio)
-sigpac_uso_nombre_Zona urbana,0.0,0.0,100.00003,Agricultura (SIGPAC)
+zona_vulnerable_nitratos,0.5079563,15.1712675,15.1712675,Territorial (Zona Vulnerable)
+anio,0.17897756,5.34557,20.516838,Temporal (Año/Mes)
+altitud_dem_m,0.16997941,5.07682,25.593658,Espacial (Coordenadas)
+sigpac_pendiente_pct,0.14343461,4.2839994,29.877659,Agricultura (SIGPAC)
+soil_clay_15_30cm,0.14221334,4.247524,34.125183,Suelo
+anomalia_temp,0.13808885,4.1243362,38.24952,Clima
+soil_clay_5_15cm,0.12357179,3.6907516,41.94027,Suelo
+soil_cec_5_15cm,0.104428686,3.1189992,45.05927,Suelo
+dist_estacion_m,0.08948316,2.6726172,47.731888,Clima
+temp_media_30d,0.08043632,2.402413,50.1343,Clima
+y_utm30,0.07998464,2.3889225,52.523224,Espacial (Coordenadas)
+precip_30d,0.0768474,2.2952216,54.818447,Clima
+ndvi_cambio_periodo,0.07681303,2.2941952,57.11264,Vegetación (NDVI)
+soil_clay_0_5cm,0.066482924,1.9856632,59.098305,Suelo
+precip_7d,0.06521128,1.9476827,61.045986,Clima
+precip_15d,0.057518397,1.7179172,62.763905,Clima
+soil_wv1500_15_30cm,0.05552268,1.6583105,64.42222,Suelo
+soil_phh2o_0_5cm,0.053695682,1.6037432,66.02596,Suelo
+temp_media_7d,0.04886087,1.4593406,67.485306,Clima
+ndvi_anio_observacion,0.048290968,1.4423192,68.92763,Vegetación (NDVI)
+naturaleza_Manantial,0.04758684,1.4212887,70.348915,Territorial (Naturaleza/Red)
+soil_phh2o_15_30cm,0.047302783,1.4128048,71.76172,Suelo
+sigpac_superficie_m2,0.04718733,1.4093565,73.171074,Agricultura (SIGPAC)
+soil_wv1500_5_15cm,0.04432224,1.3237841,74.49486,Suelo
+ndvi_max_periodo,0.043423437,1.2969394,75.791794,Vegetación (NDVI)
+mes,0.04140296,1.2365931,77.02839,Temporal (Año/Mes)
+soil_soc_5_15cm,0.04025518,1.2023122,78.2307,Suelo
+clc2012_agricola,0.0402449,1.2020051,79.4327,Cobertura del suelo (CLC)
+lat,0.03933694,1.1748868,80.60759,Espacial (Coordenadas)
+ndvi_min_periodo,0.038596474,1.1527711,81.76036,Vegetación (NDVI)
+soil_wv0033_0_5cm,0.037223425,1.1117619,82.87212,Suelo
+soil_soc_15_30cm,0.036706503,1.0963229,83.968445,Suelo
+soil_silt_0_5cm,0.035667654,1.0652953,85.03374,Suelo
+x_utm30,0.03498985,1.0450511,86.07879,Espacial (Coordenadas)
+soil_wv0033_15_30cm,0.03466288,1.0352855,87.114075,Suelo
+soil_wv1500_0_5cm,0.03187312,0.951963,88.06604,Suelo
+soil_cec_15_30cm,0.028908495,0.8634177,88.92946,Suelo
+soil_cec_0_5cm,0.026577348,0.79379267,89.72325,Suelo
+tmed,0.02545695,0.7603295,90.48358,Clima
+soil_silt_15_30cm,0.024585037,0.7342878,91.21787,Suelo
+naturaleza_Pozo,0.023658123,0.7066034,91.92448,Territorial (Naturaleza/Red)
+prec,0.021399772,0.63915265,92.56363,Clima
+clc2012_nombre_Vinedos,0.018290846,0.54629755,93.109924,Cobertura del suelo (CLC)
+soil_phh2o_5_15cm,0.016026499,0.47866768,93.58859,Suelo
+clc2018_agricola,0.015126596,0.45179006,94.04038,Cobertura del suelo (CLC)
+soil_sand_15_30cm,0.014576463,0.4353591,94.47574,Suelo
+soil_silt_5_15cm,0.014233106,0.42510396,94.90084,Suelo
+ndvi_media_periodo,0.014063881,0.42004967,95.32089,Vegetación (NDVI)
+sigpac_uso_nombre_Improductivo,0.01369578,0.4090555,95.72995,Agricultura (SIGPAC)
+sigpac_uso_nombre_Monte bajo / Matorral,0.013349332,0.39870805,96.128654,Agricultura (SIGPAC)
+lon,0.012622843,0.37700978,96.50566,Espacial (Coordenadas)
+altitud,0.012329715,0.3682549,96.87392,Espacial (Coordenadas)
+soil_soc_0_5cm,0.011171537,0.33366328,97.20758,Suelo
+naturaleza_Sondeo,0.008308417,0.24814971,97.45573,Territorial (Naturaleza/Red)
+sigpac_uso_nombre_Tierra arable,0.0076803938,0.22939236,97.68512,Agricultura (SIGPAC)
+sigpac_uso_nombre_Agua,0.0074590305,0.22278084,97.9079,Agricultura (SIGPAC)
+clc2012_nombre_Bosque frondosas,0.007064186,0.21098791,98.11889,Cobertura del suelo (CLC)
+clc2018_nombre_Vinedos,0.006401679,0.19120064,98.31009,Cobertura del suelo (CLC)
+soil_sand_0_5cm,0.0056824875,0.16972037,98.47981,Suelo
+soil_wv0033_5_15cm,0.005593683,0.16706802,98.64688,Suelo
+clc2012_nombre_Tierras labor secano,0.005237858,0.1564405,98.80332,Cobertura del suelo (CLC)
+soil_sand_5_15cm,0.0046567884,0.13908555,98.942406,Suelo
+clc2012_nombre_Frutales,0.0043802923,0.13082735,99.073235,Cobertura del suelo (CLC)
+clc2012_nombre_Tejido urbano discontinuo,0.004119755,0.12304582,99.19628,Cobertura del suelo (CLC)
+sigpac_coef_regadio,0.0036424594,0.10879031,99.30507,Agricultura (SIGPAC)
+clc2018_nombre_Tierras labor secano,0.002593758,0.07746846,99.38254,Cobertura del suelo (CLC)
+sigpac_uso_nombre_Zona urbana,0.002426629,0.07247677,99.45502,Agricultura (SIGPAC)
+clc2012_nombre_Terrenos regados,0.0023140248,0.0691136,99.52413,Cobertura del suelo (CLC)
+sigpac_uso_nombre_Viales,0.0021103364,0.06302998,99.58716,Agricultura (SIGPAC)
+clc2018_nombre_Bosque frondosas,0.001975404,0.05899992,99.64616,Cobertura del suelo (CLC)
+sigpac_uso_nombre_Forestal,0.001820149,0.054362874,99.700516,Agricultura (SIGPAC)
+clc2018_nombre_Tejido urbano discontinuo,0.0016355837,0.048850413,99.74937,Cobertura del suelo (CLC)
+clc2012_nombre_Veg esclerofia,0.0015283774,0.045648452,99.79501,Cobertura del suelo (CLC)
+evento_extremo_lluvia,0.0010730765,0.03204986,99.827065,Clima
+clc2018_nombre_Frutales,0.0010659193,0.031836096,99.8589,Cobertura del suelo (CLC)
+sigpac_uso_nombre_Vinedo,0.0010356276,0.030931365,99.88983,Agricultura (SIGPAC)
+sigpac_es_agricola,0.00093662285,0.027974363,99.91781,Agricultura (SIGPAC)
+clc2018_nombre_Mosaico cultivos,0.00091907114,0.027450142,99.94526,Cobertura del suelo (CLC)
+clc2018_nombre_Veg esclerofia,0.00077771436,0.0232282,99.96849,Cobertura del suelo (CLC)
+clc2018_nombre_Terrenos regados,0.000565955,0.016903527,99.9854,Cobertura del suelo (CLC)
+sigpac_uso_nombre_Olivar,0.0002852055,0.0085183075,99.99392,Agricultura (SIGPAC)
+clc2012_nombre_Tejido urbano continuo,0.00011670856,0.0034857653,99.997406,Cobertura del suelo (CLC)
+clc2012_nombre_Mosaico cultivos,8.73023e-05,0.002607481,100.000015,Cobertura del suelo (CLC)
+clc2012_nombre_Zonas industriales,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+sigpac_uso_nombre_Frutos secos,0.0,0.0,100.000015,Agricultura (SIGPAC)
+sigpac_uso_nombre_Huerta,0.0,0.0,100.000015,Agricultura (SIGPAC)
+sigpac_uso_nombre_Pasto arbolado,0.0,0.0,100.000015,Agricultura (SIGPAC)
+clc2012_nombre_Praderas,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+sigpac_uso_nombre_Pasto arbustivo,0.0,0.0,100.000015,Agricultura (SIGPAC)
+cambio_clc_2012_2018,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+sigpac_uso_nombre_Frutales,0.0,0.0,100.000015,Agricultura (SIGPAC)
+clc2018_nombre_Zonas industriales,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+dist_sigpac_m,0.0,0.0,100.000015,Agricultura (SIGPAC)
+clc2018_nombre_Bosque coniferas,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+sigpac_coef_regadio_nulo,0.0,0.0,100.000015,Agricultura (SIGPAC)
+clc2012_nombre_Cursos de agua,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+clc2012_nombre_Matorrales,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+clc2018_nombre_Tejido urbano continuo,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+clc2018_nombre_Praderas,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+clc2018_nombre_Matorrales,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+clc2018_nombre_Matorral boscoso,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+clc2018_nombre_Cursos de agua,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+clc2012_nombre_Bosque coniferas,0.0,0.0,100.000015,Cobertura del suelo (CLC)
+clc2012_nombre_Matorral boscoso,0.0,0.0,100.000015,Cobertura del suelo (CLC)
